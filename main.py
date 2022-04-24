@@ -10,8 +10,8 @@ import random
 pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode([700, 450])
-font = pygame.font.SysFont('None', 30)
-small_font = pygame.font.SysFont('None', 20)
+font = pygame.font.Font(None, 30)
+small_font = pygame.font.Font(None, 20)
 text_color = pygame.Color('#61A4BC')
 title_color = pygame.Color('black')
 num_of_iterations = 100
